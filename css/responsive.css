@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 480px) {
+  
+  /*************************************
+  TWO-COLUMN LAYOUT
+  **************************************/
+  
+	.main-heading {
+		padding: 5%;
+	}
+	
+  .column-one{
+    width: 45%;
+    float: left;
+	margin-top: 5%;
+	margin-bottom: 5%;
+  }
+  
+  .column-two {
+    width: 45%;
+    float: right;
+	margin-top: 5%;
+	margin-bottom: 5%;
+  }
+	
+	.link-list {
+		font-size: .85em;
+	}
+	
+	footer {
+		padding: 2%;
+		clear: both;
+	}
+	
+	nav {
+		text-align: right;
+	}
+	
+
+}
+  
+  
+@media screen and (min-width: 660px) { 
+    
+  h1 {
+    font-size: 2.5em;
+  }
+	
+	.main-heading {
+		padding: 2% 10%;
+	}
+	
+	.link-list {
+		font-size: 1.2em;
+	}
+	
+	#wrapper {
+		margin-left: 4%;
+	}
+	
+	footer {
+		text-align: left;
+		padding: 2% 10%;
+	}
+
+  
+  
+  
+  
+}
